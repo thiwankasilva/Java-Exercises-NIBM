@@ -17,6 +17,7 @@ public class DatabaseTablePanel extends JPanel {
         // Set column names
         model.setColumnIdentifiers(new Object[]{"ID","Name", "PhoneNumber"});
 
+
         // Retrieve data from the database
         fetchDataFromDatabase(model);
 

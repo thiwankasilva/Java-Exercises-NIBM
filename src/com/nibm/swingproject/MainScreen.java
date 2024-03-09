@@ -98,12 +98,7 @@ public class MainScreen extends JFrame {
             }
         });
 
-
-
-
         container.add(btnPanel,BorderLayout.SOUTH);
-
-
 
         setSize(600,300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);

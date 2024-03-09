@@ -24,8 +24,8 @@ public class Main {
 //                "Thiwanka","Negombo",7804.9);
 //        System.out.println(bankAccountThiwanka.toString());
 
-        Player player = new Player("Thiwanka","1245","thiwanka@gmail.com");
-        player.callerMethod();
+//        Player player = new Player("Thiwanka","1245","thiwanka@gmail.com");
+//        player.callerMethod();
 
 
 

@@ -1,24 +1,48 @@
 package com.nibm;
 
 public class Player {
+
     private String name;
-    private String id;
-    private String email;
+    private String age;
 
-    public Player(String name, String id, String email) {
+    private int number;
+
+    public Player(String name, String age, int number) {
         this.name = name;
-        this.id = id;
-        this.email = email;
-    }
-    private void printValues(Player player)
-    {
-        System.out.println(player.name +" "+player.email);
-    }
-    public void callerMethod()
-    {
-        //passing the object of player to the printvalues method using this keyword
-        printValues(this);
+        this.age = age;
+        this.number = number;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", number=" + number +
+                '}';
+    }
 }
